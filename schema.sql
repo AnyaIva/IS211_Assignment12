@@ -3,13 +3,13 @@ DROP TABLE IF EXISTS quizzes;
 DROP TABLE IF EXISTS quiz_results;
 
 CREATE TABLE students (
-   id INTEGER PRIMARY KEY,
+   student_id INTEGER PRIMARY KEY,
    first_name TEXT NOT NULL,
    last_name TEXT NOT NULL
 );
 
 CREATE TABLE quizzes (
-   id INTEGER PRIMARY KEY NOT NULL,
+   quiz_id INTEGER PRIMARY KEY NOT NULL,
    subject TEXT NOT NULL,
    questions INTEGER,
    quiz_date TEXT NOT NULL
