@@ -20,3 +20,12 @@ CREATE TABLE quiz_results (
    quizzes_id INT NOT NULL,
    score INT NOT NULL
 );
+
+INSERT INTO quizzes (quiz_id, subject, questions, quiz_date) VALUES
+(1, 'Python Basics', 5, '2015-05-02');
+
+INSERT INTO students (student_id, first_name, last_name) VALUES
+(1, 'John', 'Smith');
+
+INSERT INTO quiz_results (score, quizzes_id, student_id) VALUES
+(85, 1, 1);
