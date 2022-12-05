@@ -12,7 +12,7 @@ CREATE TABLE quizzes (
    id INTEGER PRIMARY KEY NOT NULL,
    subject TEXT NOT NULL,
    questions INTEGER,
-   date TEXT NOT NULL
+   quiz_date TEXT NOT NULL
 );
 
 CREATE TABLE quiz_results (
